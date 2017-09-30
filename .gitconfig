@@ -1,0 +1,17 @@
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[color]
+    ui = auto
+[user]
+        name = <YOUR_NAME>
+        email = <YOUR_EMAIL>
+[core]
+    editor = /usr/bin/vim
+[push]
+    default = simple
